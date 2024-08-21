@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black !important;
+  color: white;
+  font-family: "Fira Code", monospace !important;
+  line-height: normal !important;
+}
+
+.header {
+  width: 100vw;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: solid 1px #1e2d3d;
+  z-index: 1;
+}
+
+#name {
+  color: #607b96;
+  text-decoration: none;
+  padding: 17.5px;
+  width: 200px;
+  border-right: solid 1px #1e2d3d;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.header li {
+  padding: 17.5px;
+  border-right: solid 1px #1e2d3d;
+  color: #607b96;
+}
+
+#contact {
+  color: #607b96;
+  text-decoration: none;
+  padding: 17.5px;
+  border-left: solid 1px #1e2d3d;
+  margin-left: auto;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-width: none !important;
+}
+
+.nav-link {
+  padding: 17.5px !important;
+  border-right: solid 1px #1e2d3d !important;
+  border-radius: 0 !important;
+  color: #607b96 !important;
+}
+
+.nav-link.active {
+  background-color: black !important;
+  color: white !important;
+  border-bottom: 3px solid yellow !important;
+}
+
+.tab-pane {
+  height: calc(100vh - 107px);
+  width: 100vw;
+}
+
+.tab-content > .active {
+  display: flex !important;
+}
+
+.introduction h1 {
+  font-size: 56px;
+  color: #e5e9f0;
+}
+
+.introduction h5 {
+  font-size: 18px;
+  font-weight: 450;
+  color: #e5e9f0;
+}
+
+.introduction h3 {
+  font-size: 28px;
+  font-weight: 450;
+  color: #4d5bce;
+}
+
+.introduction p {
+  font-size: 16px;
+  font-weight: 450;
+  color: #607b96;
+}
+
+.info {
+  height: 100%;
+  width: 50px;
+  border-right: 1px solid #1e2d3d;
+}
+
+.info1 {
+  height: 100%;
+  width: 150px;
+  border-right: 1px solid #1e2d3d;
+}
+
+.footer {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #607b96;
+  border-top: 1px solid #1e2d3d;
+}
+
+.footer p {
+  margin: 0;
+  padding: 14.5px;
+  border-right: solid 1px #1e2d3d;
+}
+
+.footer a {
+  color: #607b96;
+  text-decoration: none;
+  padding: 14.5px 17.25px;
+  border-right: solid 1px #1e2d3d;
+}
+
+#github {
+  border-left: solid 1px #1e2d3d;
+  border-right: none;
+  margin-left: auto;
+}
+
+#nav-hello > div.introduction > p:nth-child(4) {
+  margin-top: 50px;
+}
