@@ -106,7 +106,9 @@ body {
 .info {
   height: 100%;
   width: 50px;
+  color: #607b96;
   border-right: 1px solid #1e2d3d;
+  display: flex;
 }
 
 .info1 {
@@ -146,4 +148,8 @@ body {
 
 #nav-hello > div.introduction > p:nth-child(4) {
   margin-top: 50px;
+}
+
+.ri-terminal-box-fill {
+  padding: 17px;
 }
